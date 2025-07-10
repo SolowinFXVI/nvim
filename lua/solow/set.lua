@@ -28,4 +28,7 @@ vim.opt.isfname:append("@-@")
 
 vim.opt.updatetime = 50
 
+vim.diagnostic.config({ virtual_lines = true })
+vim.diagnostic.config({ virtual_text = true })
+
 --vim.opt.colorcolumn = "80"
